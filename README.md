@@ -80,7 +80,7 @@ To run the project:
 
 Here is a preview of the Book Management System in action:
 
-![Book Management System Demo](https://via.placeholder.com/800x400.png?text=System+Demo)
+![Book Management System Demo](https://user-images.githubusercontent.com/123456789/123456789-abcdef00.jpg)
 
 ## Contributing 🤝
 Feel free to **fork** this project, **submit issues**, or **create pull requests**. Contributions are welcome to improve the functionality or add new features!
