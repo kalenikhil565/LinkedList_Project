@@ -1,6 +1,6 @@
 # C++ Book Management System 📚
 
-![C++ Book Management System]
+
 
 ## Description
 This project implements a **Book Management System** using **C++**. The system utilizes advanced features such as **Linked Lists**, **Classes**, **Templates**, **Operator Overloading**, **File Handling**, and **Copy Constructors**. It enables users to manage a collection of books through functionalities like adding, deleting, searching, and modifying book records. The system provides a simple yet effective interface for managing a library or personal book collection.
