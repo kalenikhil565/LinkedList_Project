@@ -1,9 +1,7 @@
 # C++ Book Management System 📚
 
-
-
 ## Description
-This project implements a **Book Management System** using **C++**. The system utilizes advanced features such as **Linked Lists**, **Classes**, **Templates**, **Operator Overloading**, **File Handling**, and **Copy Constructors**. It enables users to manage a collection of books through functionalities like adding, deleting, searching, and modifying book records. The system provides a simple yet effective interface for managing a library or personal book collection.
+This project implements a **Book Management System** using **C++**. The system utilizes advanced features such as **Linked Lists**, **Classes**, **Templates**, **Operator Overloading**, **File Handling**, **Copy Constructors**, and **Destructors**. It enables users to manage a collection of books through functionalities like adding, deleting, searching, and modifying book records. The system provides a simple yet effective interface for managing a library or personal book collection.
 
 ## Features 🌟
 
@@ -23,6 +21,9 @@ Custom **operator overloading** simplifies operations like comparing and display
 ### 5. **Copy Constructor**  
 The **copy constructor** ensures proper object copying, preventing issues like shallow copies that can lead to memory corruption. This guarantees safe copying of books when required, especially during insertion into the linked list.
 
+### 6. **Destructor**  
+The **destructor** ensures proper cleanup of dynamically allocated memory when the program ends or objects go out of scope. It prevents memory leaks by deallocating all nodes of the linked list and releasing any other allocated resources.
+
 ## Technologies Used 💻
 - **C++**: Object-oriented programming principles, memory management, and efficient data structures.
 - **Linked Lists**: Used for dynamic storage and manipulation of book records.
@@ -30,6 +31,7 @@ The **copy constructor** ensures proper object copying, preventing issues like s
 - **File Handling**: Enables persistence of book data across sessions.
 - **Operator Overloading**: Simplifies comparisons and printing of book records.
 - **Copy Constructor**: Prevents memory issues by ensuring proper copying of objects.
+- **Destructor**: Ensures memory cleanup and avoids memory leaks.
 
 ## How It Works ⚙️
 The **C++ Book Management System** performs several key operations:
@@ -49,7 +51,10 @@ Book details such as title, author, or ISBN can be modified. After modification,
 ### 5. **File Persistence**  
 All book records are saved to a text file upon exiting the system. Upon restarting the program, the records are loaded from the file and inserted into the linked list, ensuring data persistence.
 
-### 6. **User Interface**  
+### 6. **Memory Cleanup (Destructor)**  
+When the program exits, the **destructor** automatically deallocates all memory used by the linked list. It ensures that no memory leaks occur by releasing resources allocated during the program's execution.
+
+### 7. **User Interface**  
 The system provides a **command-line interface (CLI)** where users can input commands to perform various operations like adding, deleting, searching, and modifying book records.
 
 ## Getting Started 🚀
@@ -75,8 +80,6 @@ To run the project:
     ```bash
     ./book_management_system
     ```
-
-
 
 ## Contributing 🤝
 Feel free to **fork** this project, **submit issues**, or **create pull requests**. Contributions are welcome to improve the functionality or add new features!
